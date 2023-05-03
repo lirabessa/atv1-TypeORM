@@ -4,7 +4,7 @@ import { DataSource } from "typeorm";
 const AppDataSource = new DataSource({
     // url: "postgres://chxzexoz:PaKPKvhUTNPnypWmQNS4makQ3dnEU9A9@babar.db.elephantsql.com/chxzexoz",
     database: 'bdaula.db', // se for SQLite, então use bdaula.db bdatividade
-    type: "sqlite", // se for SQLite, então use sqlite
+    type: "sqlite", // snpm qlite
     // host: 'localhost', // não use esta propriedade se for sqlite
     // port: 5432, // não use esta propriedade se for sqlite
     // username: 'postgres', // não use esta propriedade se for sqlite
