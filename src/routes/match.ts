@@ -4,11 +4,11 @@ import MatchControllers from "../controller/MatchControllers"
 
 const router = Router ()
 
-router.post ("/" , MatchControllers.createMatch)
-router.get ("/" , MatchControllers.list)
-router.get("/:id", MatchControllers.listById)
-router.put("/", MatchControllers.update)
-router.delete("/:id" , MatchControllers.delete)
+router.post ("/create" , MatchControllers.createMatch)
+router.get ("/buscar" , MatchControllers.list)
+router.get("/buscar/:id", MatchControllers.listById)
+router.put("/atualizar", MatchControllers.update)
+router.delete("/deletar/:id" , MatchControllers.delete)
 
 
 export default router
