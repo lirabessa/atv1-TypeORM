@@ -47,12 +47,12 @@ class MatchController{
             where:[
                 {
                     host:{
-                        id: id
+                        id: Number(id)
                     }
                 },
                 {
                     visitor:{
-                        id: id
+                        id: Number(id)
                     }
                 }
             ],

@@ -4,10 +4,10 @@ import TeamController from "../controller/TeamControllers"
 
 const router = Router ()
 
-router.post ("/create" , TeamController.create)
-router.get ("/buscar" , TeamController.list)
-router.get ("/buscar/:name" , TeamController.listByName)
-router.put ("/atualizar:id", TeamController.update)
-router.delete("/deletar/:id" , TeamController.delete)
+router.post ("/" , TeamController.create)
+router.get ("/" , TeamController.list)
+router.get ("/:name" , TeamController.listByName)
+router.put ("/:id", TeamController.update)
+router.delete("/:id" , TeamController.delete)
 
 export default router
